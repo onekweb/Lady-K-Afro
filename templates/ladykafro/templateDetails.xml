@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="template">
+    <name>Ladykafrotemplate</name>
+    <creationDate>2015-02-23</creationDate>
+    <author>Mario Onekanda</author>
+    <authorEMail>mario.onekanda@gmail.com</authorEMail>
+    <authorUrl>http:www.onekweb.com</authorUrl>
+    <copyright>Mario Onekanda 2015</copyright>
+    <license>GNU/GPL</license>
+    <version>1.0.0</version>
+    <description>Lady K Afro Template</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>javascript</folder>
+    </files>
+    <positions>
+        <position>top</position>
+        <position>menu</position>
+        <position>slideshow</position>
+        <position>maintop</position>
+        <position>mainbottom</position>
+        <position>footer</position>
+    </positions>
+
+
+</extension>

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*
+The stylesheet is made by Mario Onekanda on february 28th 2015
+ */
+@charset "UTF-8";
+@import "http://fonts.googleapis.com/css?family=Jockey+One";
+@import "http://fonts.googleapis.com/css?family=Marck+Script";
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{}
+a{}
+a:hover{}
+a image{border: 0px;}
+a{outline:none}
+a:link, a:visited, a:activate
+{
+text-decoration:         none;  
+}
+
+body
+{
+font-family:             Arial, Helvetica, sans-serif;
+background-repeat:       repeat-y;  
+background-repeat:       repeat-x;
+margin:                 0;
+padding:                0;    
+}
+
+/* ---------------#wrapper-------------*/
+#wrapper
+{
+background:            #fff;
+margin:                0px;
+padding:               0px;
+width:                 100%;
+height:                auto;
+display:               block;
+}
+/* ---------------#TOP-SOCIAL MEDIAS-----*/
+#top-socialmedias
+{
+background:           #fff;
+margin:               0 auto;
+padding:              0px;
+text-align:           center;
+display:              block;
+width:                100%;
+height:               20px;
+border-bottom:        3px solid #000;
+}
+/* ---------------#MAIN MENU-------------*/
+#mainmenu {
+    background: #ff4fcb;s
+    color: #fff;
+    font-family: 'Jockey One',Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    
+}
+#mainmenu li {
+    display: inline;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+#mainmenu li a {
+    color: #fff;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    width: auto;
+}
+#mainmenu li a:hover {
+    color: #000;
+    text-decoration: none;
+
+}
+#mainmenu li.current a {
+    border-bottom: 3px solid #000;
+    line-height: 0;
+    margin: 0;
+    padding: 10px 10px 0;
+}
+
+#mainmenu li.parent {
+    position: relative;
+}
+#mainmenu li.parent ul {
+    background: none repeat scroll 0 0 #000;
+    display: none;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+}
+#mainmenu li.parent ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}/* ---------------#MAIN MENU-------------*/
+#mainmenu li.parent ul li a {
+    border: medium none;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+#mainmenu li.parent ul li a:hover {
+    border: medium none;
+}
+#mainmenu ul
+{
+  margin: 0;
+}
+/* ---------------#LOGO-------------*/
+.logo
+{
+ color: red;
+ width: 200px;
+ height: 200px;
+}
