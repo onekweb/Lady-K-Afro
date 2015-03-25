@@ -4,6 +4,7 @@ $app=jFactory::getApplication();
 $menu= $app->getMenu();
 $activeId=$menu->getActive()->id;
 ?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"xml:lang"<?php echo $this->language;?>" lang="<?php echo $this->language;?>" >
 <head>
     <jdoc:include type="head"/>
@@ -12,22 +13,19 @@ $activeId=$menu->getActive()->id;
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
 </head>
 <body>
-    <!-- #wrapper-->
-    <div id="wrapper">
-        
-        <!--#top-socialmedias-->    
-        <div id="top-socialmedias">
-            <jdoc:include type="modules" name="top"/>
-        </div>
-        <!--end #top-socialmedias-->    
-        
+	<!--#top -->
+	<div id="top">
+	    <jdoc:include type="modules" name="top"/>
         <!--#mainmenu-->    
-        <div id="mainmenu">
-            <jdoc:include type="modules" name="mainmenu" />
+        <div class="mainmenu">
            <!--<img src="<?php echo $this->baseurl?>/templates<?php echo $this->template;?>/images/logo.png" class="logo"/>-->
         </div>
         <!--end #top-header-->
-        
+    <!--end #top-->    
+	</div>
+	
+    <!-- #wrapper-->
+    <div id="wrapper">       
         <!-- #slidesshow-->
         <div id="slideshow">
             <jdoc:include type="modules" name="slideshow"/>
